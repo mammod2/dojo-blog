@@ -1,16 +1,29 @@
 import './App.css';
 import Navbar  from './Navbar';
 import Home  from './Home';
+import { BrowserRouter as Router, Route , Switch  } from 'react-router-dom/cjs/react-router-dom.min';
+import Create from './Create';
 function App() {
   return (
+    <Router>
     <div className="App bg-[#FAF9F6] min-h-screen ">
-      <div className='w-1/2 mx-auto'>
-      <Navbar/>
+      <div className='sm:w-1/2 mx-auto'>
+        <div className="mb-12" >
+      <Navbar />
+        </div>
       <div className="content">
-        <Home/>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route path="/create">
+          <Create/>
+        </Route>
+      </Switch>
       </div>
       </div>
     </div>
+    </Router>
   );
 }
 

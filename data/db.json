@@ -1,0 +1,7 @@
+{
+    "blogs":[
+        {"title" : "My new website", "body": "lorem ipusum ...." , "author": "mario", "id":1 },
+        {"title" : "Lets party !", "body": "lorem ipusum ...." , "author": "Luigi", "id":2 },
+        {"title" : "Web dev stuff", "body": "lorem ipusum ...." , "author": "mario", "id":3 }
+    ]
+}

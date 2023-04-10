@@ -4,12 +4,12 @@ const BlogList = ({blogs ,  title , handleDelete}) => {
     ;
     
     return (  
-        <div className="BlogList">
-            <h1>{title}</h1>
+        <div className="BlogList mt-10">
+            <h1 className="text-2xl text-left mx-6 font-semibold">{title}</h1>
             {blogs.map((blog) => (
                 <div className="blog-preview m-4 hover:border flex justify-between p-2 hover:shadow-sm rounded-md cursor-pointer" key={blog.id}>
                     <div>
-                    <h2 className='text-red-600 font-semibold text-lg text-left'>{blog.title}</h2>
+                    <h2 className='text-red-600 font-semibold text-lg text-left '>{blog.title}</h2>
                     <p className='font-light text-left'>Written by : {blog.author}</p>
                     </div>
                     <div className="m-2" >
