@@ -1,7 +1,16 @@
 {
-    "blogs":[
-        {"title" : "My new website", "body": "lorem ipusum ...." , "author": "mario", "id":1 },
-        {"title" : "Lets party !", "body": "lorem ipusum ...." , "author": "Luigi", "id":2 },
-        {"title" : "Web dev stuff", "body": "lorem ipusum ...." , "author": "mario", "id":3 }
-    ]
+  "blogs": [
+    {
+      "title": "Lets party !",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse voluptatem ut suscipit ex quam mollitia culpa saepe totam cum eos quo aliquam, eum sed id, rerum cupiditate alias quas perspiciatis?",
+      "author": "Luigi",
+      "id": 2
+    },
+    {
+      "title": "Web dev stuff",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse voluptatem ut suscipit ex quam mollitia culpa saepe totam cum eos quo aliquam, eum sed id, rerum cupiditate alias quas perspiciatis?",
+      "author": "mario",
+      "id": 3
+    }
+  ]
 }
